@@ -104,7 +104,6 @@ namespace Microsoft.DotNet.CodeFormatting.Rules
                         case SyntaxKind.PublicKeyword:
                         case SyntaxKind.ConstKeyword:
                         case SyntaxKind.InternalKeyword:
-                        case SyntaxKind.ProtectedKeyword:
                             isPrivate = false;
                             break;
                         case SyntaxKind.StaticKeyword:
